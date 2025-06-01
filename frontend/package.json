@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "cross-env GITHUB_PAGES=true next export",
+    "deploy": "npm run build && npm run export",
     "start": "next start",
     "prisma": "prisma"
   },
@@ -20,6 +22,7 @@
     "@tailwindcss/postcss": "^4.1.8",
     "@types/bcryptjs": "^3.0.0",
     "autoprefixer": "^10.4.21",
+    "cross-env": "^7.0.3",
     "postcss": "^8.5.4",
     "prisma": "latest",
     "tailwindcss": "^4.1.8",
