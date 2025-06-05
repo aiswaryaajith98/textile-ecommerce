@@ -1,12 +1,12 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/cart": "pages/cart.html",
   "/checkout": "pages/checkout.html",
   "/": "pages/index.html",
   "/product/[id]": "pages/product/[id].html",
   "/products": "pages/products.html",
   "/success": "pages/success.html",
+  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/404": "pages/404.html"
 }

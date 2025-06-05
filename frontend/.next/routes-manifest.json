@@ -2,16 +2,8 @@
   "version": 3,
   "pages404": true,
   "caseSensitive": false,
-  "basePath": "/textile-ecommerce",
+  "basePath": "",
   "redirects": [
-    {
-      "source": "/textile-ecommerce/",
-      "destination": "/textile-ecommerce",
-      "basePath": false,
-      "internal": true,
-      "statusCode": 308,
-      "regex": "^/textile-ecommerce/$"
-    },
     {
       "source": "/:path+/",
       "destination": "/:path+",
