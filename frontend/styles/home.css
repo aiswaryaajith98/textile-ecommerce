@@ -82,6 +82,8 @@ body, .ss-home {
   filter: grayscale(0) brightness(0.7);
 }
 
+
+
 /* Hero Banner Carousel */
 .ss-hero {
   position: relative;
@@ -1336,6 +1338,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
   color: #111;
 }
 
+/* Small tablets */
 @media (max-width: 700px) {
   .ss-products__grid {
     grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
@@ -1351,6 +1354,38 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
   }
   .ss-products__title {
     font-size: 1.4rem;
+  }
+}
+
+/* Extra Large Screens: Desktop monitors */
+@media (max-width: 1200px) {
+  .ss-header, .ss-topbar {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .ss-hero, .ss-categories, .ss-promos, .ss-services, .ss-featured-brands {
+    max-width: 1000px;
+    padding: 0 10px;
+  }
+  .ss-footer__links {
+    gap: 24px;
+  }
+}
+
+/* Large Tablets and Laptops */
+@media (max-width: 1024px) {
+  .ss-header, .ss-topbar {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .ss-header__nav ul {
+    gap: 10px;
+  }
+  .ss-categories__row {
+    gap: 10px;
+  }
+  .ss-footer__links {
+    gap: 12px;
   }
 }
 

@@ -11,35 +11,35 @@ const sampleProducts = [
     id: 1,
     name: "Men's Classic Shirt",
     price: 1199,
-    image: "images/Men.png",
+    image: '/images/men.jpg',
     category: "Men"
   },
   {
     id: 2,
     name: "Women's Summer Dress",
     price: 1499,
-    image: "images/Women.png",
+    image: '/images/women.jpg',
     category: "Women"
   },
   {
     id: 3,
     name: "Kids' Fun T-Shirt",
     price: 699,
-    image: "images/Kid.png",
+    image: '/images/kid.jpg',
     category: "Kids"
   },
   {
     id: 4,
     name: "Home Decor Cushion",
     price: 899,
-    image: "images/IMAGE4.jpg",
+    image: '/images/image4.jpg',
     category: "Home"
   },
   {
     id: 5,
     name: "Beauty Essentials Kit",
     price: 1299,
-    image: "images/Coverable.png",
+    image: '/images/coverable.jpg',
     category: "Beauty"
   }
 ];

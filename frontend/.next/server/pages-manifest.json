@@ -1,9 +1,6 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/api/auth": "pages/api/auth.js",
-  "/api/orders": "pages/api/orders.js",
-  "/api/products": "pages/api/products.js",
   "/cart": "pages/cart.html",
   "/checkout": "pages/checkout.html",
   "/": "pages/index.html",

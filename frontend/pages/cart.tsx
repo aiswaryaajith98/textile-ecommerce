@@ -12,7 +12,7 @@ const sampleCart = [
     id: 1,
     name: "Men's Classic Shirt",
     price: 1199,
-    image: "/images/Men.png",
+    image: "/images/men.jpg",
     color: "#222",
     size: "L",
     qty: 1
@@ -21,7 +21,7 @@ const sampleCart = [
     id: 2,
     name: "Women's Summer Dress",
     price: 1499,
-    image: "/images/Women.png",
+    image: "/images/women.jpg",
     color: "#FFD600",
     size: "M",
     qty: 2

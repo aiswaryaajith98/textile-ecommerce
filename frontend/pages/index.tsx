@@ -9,11 +9,11 @@ import Link from "next/link";
 // Placeholder data for banners and categories
 const heroBanners = [
   {
-    img: "images/Main-Banner1.jpg",
+    img: "/images/mainbanner1.png",
     alt: "Main Banner 1"
   },
   {
-    img: "images/Main-Banner2.jpg",
+    img: "/images/mainbanner2.png",
     alt: "Main Banner 2"
   }
 ];
@@ -144,10 +144,10 @@ const Home = () => {
             <h2 style={{ fontWeight: 600, fontSize: "2rem", marginBottom: "24px" }}>
               <span style={{ color: "#b1b1b1" }}>Covetable</span> <span style={{ color: "#222" }}>Beauty</span>
             </h2>
-            <img src="images/Coverable.png" style={{ maxWidth: "350px", borderRadius: "8px" }} />
+            <img src="/images/coverable.jpg" style={{ maxWidth: "350px", borderRadius: "8px" }} />
           </div>
           <div style={{ textAlign: "center" }}>
-            <img src="images/IMAGE1.jpg" alt="Anastasia" style={{ maxWidth: "250px", marginBottom: "16px", borderRadius: "8px" }} />
+            <img src="/images/image1.jpg" alt="Anastasia" style={{ maxWidth: "250px", marginBottom: "16px", borderRadius: "8px" }} />
             <div style={{ fontFamily: "serif", fontSize: "1.5rem", fontWeight: "bold", marginBottom: "8px" }}>ANASTASIA</div>
             <div style={{ fontWeight: 400, letterSpacing: "2px", marginBottom: "16px" }}>BEVERLY HILLS</div>
             <div style={{ fontSize: "2rem", fontWeight: "bold", marginBottom: "16px" }}>UP TO 40% OFF</div>
@@ -155,8 +155,8 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-      {/* Intune Store Section */}
+{/* 
+     
       <section className="ss-intune-store" style={{ margin: "40px 0", display: "flex", alignItems: "center", justifyContent: "center" }}>
         <div style={{ width: "95%", display: "flex", alignItems: "center", gap: "32px" }}>
           <div style={{ minWidth: 210, textAlign: "left" }}>
@@ -167,30 +167,30 @@ const Home = () => {
             </div>
           </div>
           <div style={{ display: "flex", gap: "28px", flexWrap: "wrap", justifyContent: "center", flex: 1 }}>
-            {/* Card 1 */}
+          
             <div style={{ background: '#fff', borderRadius: '16px', boxShadow: '0 2px 8px rgba(0,0,0,0.08)', overflow: 'hidden', width: 250, position: 'relative' }}>
-              <img src="images/Women.png" style={{ width: '100%', height: 260, objectFit: 'cover' }} />
+              <img src="/images/Women.png" style={{ width: '100%', height: 260, objectFit: 'cover' }} />
               <div style={{ position: 'absolute', bottom: 16, left: 0, right: 0, background: 'rgba(255,255,255,0.95)', padding: '8px 0', textAlign: 'center', fontWeight: 700, fontSize: '1.2rem', letterSpacing: 1, borderRadius: '8px', margin: '0 12px' }}>
                 STARTING ₹249
               </div>
             </div>
-            {/* Card 2 */}
+           
             <div style={{ background: '#fff', borderRadius: '16px', boxShadow: '0 2px 8px rgba(0,0,0,0.08)', overflow: 'hidden', width: 250, position: 'relative' }}>
-              <img src="images/Kid.png" style={{ width: '100%', height: 260, objectFit: 'cover' }} />
+              <img src="/images/Kid.png" style={{ width: '100%', height: 260, objectFit: 'cover' }} />
               <div style={{ position: 'absolute', bottom: 16, left: 0, right: 0, background: 'rgba(255,255,255,0.95)', padding: '8px 0', textAlign: 'center', fontWeight: 700, fontSize: '1.2rem', letterSpacing: 1, borderRadius: '8px', margin: '0 12px' }}>
                 STARTING ₹249
               </div>
             </div>
-            {/* Card 3 */}
+           
             <div style={{ background: '#fff', borderRadius: '16px', boxShadow: '0 2px 8px rgba(0,0,0,0.08)', overflow: 'hidden', width: 250, position: 'relative' }}>
-              <img src="images/Men.png" style={{ width: '100%', height: 260, objectFit: 'cover' }} />
+              <img src="/images/Men.png" style={{ width: '100%', height: 260, objectFit: 'cover' }} />
               <div style={{ position: 'absolute', bottom: 16, left: 0, right: 0, background: 'rgba(255,255,255,0.95)', padding: '8px 0', textAlign: 'center', fontWeight: 700, fontSize: '1.2rem', letterSpacing: 1, borderRadius: '8px', margin: '0 12px' }}>
                 STARTING ₹399
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Featured Brands */}
       <section className="ss-featured-brands">
@@ -200,33 +200,33 @@ const Home = () => {
           <div className="ss-featured-brands__carousel">
             {/* Cards */}
             <div className="ss-featured-brand-card">
-              <img src="images/IMAGE1.jpg" alt="Calvin Klein" />
+              <img src="/images/image1.jpg" alt="Calvin Klein" />
               <div className="ss-featured-brand-card__info">
                 <span className="ss-featured-brand-card__brand">Calvin Klein</span>
               </div>
             </div>
             <div className="ss-featured-brand-card">
-              <img src="images/IMAGE2.jpg" alt="Chloé" />
+              <img src="/images/image2.jpg" alt="Chloé" />
               <div className="ss-featured-brand-card__info">
                 <span className="ss-featured-brand-card__brand">Chloé</span>
               </div>
             </div>
             <div className="ss-featured-brand-card">
-              <img src="images/IMAGE3.jpg" alt="Fashor" />
+              <img src="/images/image3.jpg" alt="Fashor" />
               <div className="ss-featured-brand-card__info">
                 <span className="ss-featured-brand-card__brand">FASHOR</span>
                 <span className="ss-featured-brand-card__offer">UP TO 40% OFF</span>
               </div>
             </div>
             <div className="ss-featured-brand-card">
-              <img src="images/IMAGE4.jpg" alt="Versace" />
+              <img src="/images/image4.jpg" alt="Versace" />
               <div className="ss-featured-brand-card__info">
                 <span className="ss-featured-brand-card__brand">VERSACE</span>
                 <span className="ss-featured-brand-card__offer">UP TO 20% OFF</span>
               </div>
             </div>
             <div className="ss-featured-brand-card">
-              <img src="images/IMAGE5.jpg" alt="Forever New" />
+              <img src="/images/image5.jpg" alt="Forever New" />
               <div className="ss-featured-brand-card__info">
                 <span className="ss-featured-brand-card__brand">FOREVER NEW</span>
               </div>
@@ -299,13 +299,13 @@ const Home = () => {
 // Homegrown Brands Carousel as a component
 function HomegrownCarousel() {
   const brands = [
-    { name: "FRATINI", icon: "images/IMAGE1.jpg", offer: "UP TO 20% OFF" },
-    { name: "KASHISH", icon: "images/IMAGE2.jpg", offer: "UP TO 30% OFF" },
-    { name: "HAUTE CURRY", icon: "images/IMAGE3.jpg", offer: "UP TO 40% OFF" },
-    { name: "LIFE", icon: "images/IMAGE4.jpg", offer: "UP TO 50% OFF" },
-    { name: "VETTORIO FRATINI", icon: "images/IMAGE5.jpg", offer: "UP TO 25% OFF" },
-    { name: "STOP", icon: "images/IMAGE6.jpg", offer: "UP TO 20% OFF" },
-    { name: "F", icon: "images/IMAGE4.jpg", offer: "UP TO 35% OFF" },
+    { name: "FRATINI", icon: "/images/image1.jpg", offer: "UP TO 20% OFF" },
+    { name: "KASHISH", icon: "/images/image2.jpg", offer: "UP TO 30% OFF" },
+    { name: "HAUTE CURRY", icon: "/images/image3.jpg", offer: "UP TO 40% OFF" },
+    { name: "LIFE", icon: "/images/image4.jpg", offer: "UP TO 50% OFF" },
+    { name: "VETTORIO FRATINI", icon: "/images/image5.jpg", offer: "UP TO 25% OFF" },
+    { name: "STOP", icon: "/images/image6.jpg", offer: "UP TO 20% OFF" },
+    { name: "F", icon: "/images/image4.jpg", offer: "UP TO 35% OFF" },
   ];
   const [centerIdx, setCenterIdx] = React.useState(3);
   const handleLeft = () => setCenterIdx(i => (i - 1 + brands.length) % brands.length);
