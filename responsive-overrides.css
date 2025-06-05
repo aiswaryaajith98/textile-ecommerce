@@ -1,0 +1,35 @@
+/* Extra small screens: Small mobile */
+@media (max-width: 400px) {
+  html {
+    font-size: 13px;
+  }
+  .ss-header__logo span {
+    font-size: 1.1rem !important;
+  }
+  .ss-header__actions {
+    flex-direction: column;
+    gap: 4px;
+  }
+  .ss-header__search {
+    padding: 5px 8px;
+  }
+  .ss-product-card__btn {
+    padding: 5px 10px;
+    font-size: 0.8rem;
+  }
+  .ss-category img {
+    width: 48px;
+    height: 48px;
+  }
+  .ss-hero__img {
+    height: 90px;
+  }
+  .ss-homegrown-arrow {
+    width: 22px;
+    height: 22px;
+    font-size: 0.9rem;
+  }
+  .ss-footer__links > div {
+    margin-bottom: 8px;
+  }
+}
